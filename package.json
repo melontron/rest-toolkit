@@ -1,0 +1,40 @@
+{
+  "name": "rest-toolkit",
+  "version": "1.0.0",
+  "description": "Simple reusable code snippets for creating REST api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melontron/rest-toolkit.git"
+  },
+  "keywords": [
+    "rest",
+    "toolkit",
+    "classes",
+    "controllers",
+    "error",
+    "handling",
+    "node",
+    "javascript",
+    "api",
+    "js"
+  ],
+  "author": "Melik Karapetyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melontron/rest-toolkit/issues"
+  },
+  "homepage": "https://github.com/melontron/rest-toolkit#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "joi": "^14.3.1",
+    "js-doc": "^0.5.0"
+  }
+}
